@@ -105,7 +105,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="90" y="-208"/>
+            <point key="canvasLocation" x="730" y="-349"/>
+        </scene>
+        <!--Register-->
+        <scene sceneID="nxf-SM-AnS">
+            <objects>
+                <viewController title="Register" id="RhA-rI-nOK" customClass="RegisterViewController" customModule="AuthenSSRU" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I6E-vr-bxT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="OBu-Vl-D8l"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rE4-RS-reW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1507" y="-349"/>
         </scene>
     </scenes>
     <resources>
