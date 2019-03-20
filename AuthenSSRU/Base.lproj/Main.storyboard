@@ -79,6 +79,9 @@
                                 <state key="normal" title="New Rogister">
                                     <color key="titleShadowColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="registerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uhM-b9-P6Q"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -102,10 +105,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="RhA-rI-nOK" kind="show" identifier="GoRogistter" id="haf-b5-e1b"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="730" y="-349"/>
+            <point key="canvasLocation" x="1099" y="-398"/>
         </scene>
         <!--Register-->
         <scene sceneID="nxf-SM-AnS">
@@ -120,7 +126,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rE4-RS-reW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1507" y="-349"/>
+            <point key="canvasLocation" x="1852" y="-398"/>
         </scene>
     </scenes>
     <resources>
