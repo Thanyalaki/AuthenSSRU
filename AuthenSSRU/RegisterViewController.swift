@@ -48,6 +48,7 @@ class RegisterViewController: UIViewController {
         if (name.count == 0) || (user.count == 0) || (password.count == 0) {
             myAlert(titleString: "HAve Space", messageString: "Please Fill Blank")
         } else{
+            uploaData(name: name, user: user, password: password)
             
         }
         
@@ -69,6 +70,30 @@ class RegisterViewController: UIViewController {
     func uploaData(name: String,user: String,password: String) -> Void {
         
         let urlString : String = "https://www.androidthai.in.th/snru/addDataThanyalak.php?isAdd=true&Name=\(name)&User=\(user)&Password=password=\(password)"
+        
+        let url = URL(string: urlString)
+        let request = NSMutableURLRequest(url: url!)
+        let task = URLSession.shared.dataTask(with: request as URLRequest) {data, response, error in
+            
+            if error != nil {
+                print("Error")
+            } else {
+                
+                if let tesDta = data {
+                    
+                   let canReadData = NSString(data: tesDta, encoding: String.Encoding.utf8.rawValue)
+                    
+                    print("canRead ==>\(String(describing: canReadData))")
+                }
+                
+            } //if1
+            
+        }//end Task
+        task.resume()
+        
+        
+        
+        
         
         
         
