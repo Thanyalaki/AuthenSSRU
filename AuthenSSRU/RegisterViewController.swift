@@ -64,8 +64,17 @@ class RegisterViewController: UIViewController {
         
         present(alert,animated: true,completion: nil)
         
+        } // myAlert
+    
+    func uploaData(name: String,user: String,password: String) -> Void {
         
-    } // myAlert
+        let urlString : String = "https://www.androidthai.in.th/snru/addDataThanyalak.php?isAdd=true&Name=\(name)&User=\(user)&Password=password=\(password)"
+        
+        
+        
+    }
+    
+    
 
    @IBAction func backButton(_ sender: UIBarButtonItem) {
     
