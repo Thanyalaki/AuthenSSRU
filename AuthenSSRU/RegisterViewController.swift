@@ -41,18 +41,24 @@ class RegisterViewController: UIViewController {
         let user = UserTextField.text!
         let password = PasswordTextFieid.text!
         
-        
         print("name =\(name)")
         print("user = \(user)")
         print("password = \(password)")
         
+        if (name.count == 0) || (user.count == 0) || (password.count == 0) {
+            myAlert(titleString: "HAve Space", messageString: "Please Fill Blank")
+        } else{
+            
+        }
         
+        } // upload Button
+    
+    
+    func myAlert(titleString: String, messageString:  String) -> Void {
         
-        
+   print("title = \(titleString),message = \(messageString)")
+   
     }
-    
-    
-    
 
    @IBAction func backButton(_ sender: UIBarButtonItem) {
     
