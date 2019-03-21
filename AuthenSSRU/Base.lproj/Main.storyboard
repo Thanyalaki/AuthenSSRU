@@ -171,12 +171,15 @@
                         <viewLayoutGuide key="safeArea" id="OBu-Vl-D8l"/>
                     </view>
                     <connections>
+                        <outlet property="PasswordTextFieid" destination="CTC-Z5-Wes" id="zjI-vU-E4N"/>
+                        <outlet property="UserTextField" destination="1X1-wB-gkk" id="KnT-eM-bV2"/>
+                        <outlet property="nametextField" destination="6E2-Qw-Qtw" id="h5K-il-sB2"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="BackMain" id="Iqt-5l-Ngn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rE4-RS-reW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="77" y="-375"/>
+            <point key="canvasLocation" x="-101" y="-375"/>
         </scene>
     </scenes>
     <resources>

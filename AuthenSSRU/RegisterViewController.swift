@@ -10,17 +10,40 @@ import UIKit
 
 class RegisterViewController: UIViewController {
     
+//    My Outlet
     
-
+    
+    @IBOutlet weak var nametextField: UITextField!
+    
+    
+    @IBOutlet weak var UserTextField: UITextField!
+    
+    
+    
+    @IBOutlet weak var PasswordTextFieid: UITextField!
+    
+    
+    //    End Outier
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     } //Main Method
     
+
     @IBAction func uploadbutton(_ sender: UIBarButtonItem) {
         
+      
         print("You Click Upload")
+        
+        let name = nametextField.text!
+        
+        print("name =\(name)")
+        
+        
+        
+        
         
     }
     
